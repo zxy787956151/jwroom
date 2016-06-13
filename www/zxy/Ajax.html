@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title></title>
+	<meta charset="utf8"/>
+	<script src="jquery-1.10.2.min.js"></script>
+	<script type="text/javascript">
+	var a = 'a';
+		var aj = $.ajax( {  
+   url:'Ajax.php?action=submit',// 跳转到 action  
+     data:{  
+ // 5              selRollBack : selRollBack,  
+ // 6              selOperatorsCode : selOperatorsCode,  
+ // 7              PROVINCECODE : PROVINCECODE,  
+ // 8              pass2 : pass2  
+ 					'A' : a
+      },  
+     type:'post',  
+    
+     dataType:'json',  
+     success:function(data) {  
+        	// alert(data.result);
+        	alert('1');
+      },  
+     error : function() {  
+          alert("异常！");  
+   }  
+ });
+	</script>
+</head>
+<body>
+
+</body>
+</html>

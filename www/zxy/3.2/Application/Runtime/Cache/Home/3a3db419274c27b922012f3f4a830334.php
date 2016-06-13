@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><div>社会你修宇哥！</div>
